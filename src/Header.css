@@ -1,0 +1,9 @@
+.header:nth-child(n+2) {
+  margin-top: 10px;
+  border-top: 1px solid #0a293f;
+}
+
+.title {
+  font-size: 1.5em;
+  padding: 10px 0 0 0;
+}
