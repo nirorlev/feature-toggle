@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Paragraph from './Paragraph'
+import {toggleableComponents} from './featureToggleConfig'
 
 const docStructure = require('./Document.json')
 
+// This decorator should do --> Paragraph.onToggle(() => this.forceUpdate())
+// @withComponentToggle(toggleableComponents.Paragraph)
 class Document extends Component {
   render() {
     return (
